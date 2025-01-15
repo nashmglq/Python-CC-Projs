@@ -1,0 +1,31 @@
+Week 1: Python Fundamentals
+1.	Python Basics
+2.	Conditional Statements and Loops
+Week 2: Data Structures
+3.	Lists and Tuples
+4.	Dictionaries and Sets
+Week 3: Functions and Modules
+5.	Defining Functions
+6.	Modules and Libraries
+Week 4: File Handling and Exceptions
+7.	File I/O
+8.	Exception Handling
+Week 5: Object-Oriented Programming (OOP)
+9.	OOP Basics
+10.	Advanced OOP
+Week 6: Pythonic Programming
+11.	Comprehensions and Lambda Functions
+12.	Iterators and Generators
+Week 7: Problem-Solving with Python
+13.	Competitive Programming Basics
+14.	Algorithm Analysis
+Week 8: Working with Data
+15.	Numpy and Pandas Basics
+16.	Data Visualization
+Week 9: Capstone Practice
+17.	Small Project
+18.	Debugging and Optimization
+Week 10: Final Preparation
+19.	Practice and Mock Competition
+20.	Review and Strengthen Weak Areas	
+
