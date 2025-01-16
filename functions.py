@@ -10,10 +10,15 @@ my_addition_func(5,7)
 '''
 
 # *args and **kwargs
+
+
 # "*" unpacking (like destructuring in javascript)
 # this will put it into a tupple
 # "**" same function
 # However, it will use put it into a dictionary (objects)
+
+# * is for unpacking tuples or lists (positional arguments).
+# ** is for unpacking key-value pairs (dictionaries).
 
 # def myFunc(parameter)
 # myFunc(arguements)
