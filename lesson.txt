@@ -10,8 +10,6 @@ Week 3: Functions and Modules
 Week 4: File Handling and Exceptions
 7.	File I/O
 8.	Exception Handling
-
-
 Week 5: Object-Oriented Programming (OOP)
 9.	OOP Basics
 10.	Advanced OOP
