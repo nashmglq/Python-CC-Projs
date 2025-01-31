@@ -1,7 +1,16 @@
 #Python Data Structure for a JavaScript Developer. 
 
 #List is an Array in Javascript here is an example
+# To access list use my_list[index]
 my_list = ["nash", "maglaqui", "steven"]
+
+
+my_dict = {"name": "Nash", "age": 20}
+# To access dict value use my_dict["name"]
+
+
+#To summarize, in list we use index or position
+# In dict we use keys
 
 #JavaScript does not have any tupples or list but with ()
 my_tupples = ("Wow", "Lol", "Lmao")
@@ -9,7 +18,6 @@ my_tupples = ("Wow", "Lol", "Lmao")
 
 #Javascript has Object, Python has Dict or Dictionaries
 
-my_dict = {"name": "Nash", "age": 20}
 
 # This is a obj (dict) with no values
 my_list = {"one", "two", "three", "pikit hehe"}
@@ -25,4 +33,9 @@ str
 int
 float = 20.1
 import decimal if needed
+
+
+
+len() = start 1
+index = start 0
 '''

@@ -2,6 +2,7 @@
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
+  #x is the content being target each iteration
   print(x)
 
 #For loops for range, range(start, stop, step)
