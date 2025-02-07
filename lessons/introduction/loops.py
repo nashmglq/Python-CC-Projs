@@ -19,3 +19,11 @@ while i < 6:
   i += 1
 
 
+
+# This to get the index and not value
+# for index, value in enumerate(find_missing_num):
+#     print(value)
+# If you only use value or i it will provide a tupple
+
+
+# You can do reverse but using this reversed()
