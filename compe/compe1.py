@@ -15,3 +15,19 @@ for i in list_string:
 
 
 print(len(list_vowels))
+
+
+
+
+
+'''
+list_vowels = []
+list_string = list(user)
+
+for i in list_string:
+    
+    if i in "aeiou":
+        list_vowels.append(i)
+    
+print(len(list_vowels))
+'''
