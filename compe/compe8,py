@@ -1,0 +1,9 @@
+# Write a Python program that takes a sentence as input and prints the sentence with the words in reverse order.
+
+def test01(strs):
+    splitStrs = strs.split()
+    print(' '.join(splitStrs[::-1]))
+    
+    
+
+test01("Hello CodeChum World!")
