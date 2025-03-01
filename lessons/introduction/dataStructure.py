@@ -7,6 +7,7 @@ my_list = ["nash", "maglaqui", "steven"]
 
 my_dict = {"name": "Nash", "age": 20}
 # To access dict value use my_dict["name"]
+# To update dicts, use var.update([value])
 
 
 #To summarize, in list we use index or position
@@ -26,6 +27,9 @@ print("This is from a list ", type(my_list), my_list)
 print("This is from a tupple ",type(my_tupples), my_tupples)
 print("This is from my dictionaries ", type(my_dict) , my_dict)
 print("This is from my list", type(my_list), my_list)
+
+
+# set() = holds unique value {}
 
 '''
 Additional:
