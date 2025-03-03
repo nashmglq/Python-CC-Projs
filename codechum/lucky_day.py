@@ -1,23 +1,30 @@
-#Print the days, to be lucky
 
-def test01():
-    numberOfDays = int(input("Enter the number of days: "))
-    oddsOfDays = input("Enter the odds of luck for each day: ").split()
-    emptyBigger = []
+def luckyDay():
+    n = int(input("Enter the number of days: "))
+    days = list(map(int, input("Enter the odds of luck for each day: ").split()))
+
+    if n  != len(days):
+        return False
     
-    if len(oddsOfDays) > numberOfDays:
-        print("Invalid")
-        
-    #Check if next is bigger than the prev
-        
-    for j in range(len(oddsOfDays)-1):
-        if oddsOfDays[j+1] > oddsOfDays[j]:
+    result = []
+    
+    for i in range(len(days)):
+        #Reset each iteration of "i"
+        count = 0
+        #To get the next index of "j" loop
+        for j in range(i+1, len(days)):
+            count += 1
             
-            x = int(oddsOfDays[j+1]) - int(oddsOfDays[j])
-            emptyBigger.append(x)
-            
+            if days[j] > days[i]:
+                result.append(count)
+                break
+        # Run outside so if days[j] !> days[i] it wont append each iteration of j
+        # The else is connected to "j" if "j" break the iteration of "i" break, else append 0
+        
         else:
-            emptyBigger.append('0')
+            result.append(0)
 
-    return emptyBigger
-print(test01())
+        
+    return result
+            
+print(luckyDay())

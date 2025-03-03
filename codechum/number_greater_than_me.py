@@ -18,7 +18,7 @@ def test01():
         for j in appendInts:
             if j > i:
                 count += 1
-        # If you put this inside the if statemtn, everytime it meet the req, it will append.
+        # If you put this inside the if statement of "j", everytime it meet the req, it will append.
         result.append(count)
     
 
