@@ -1,34 +1,24 @@
-# User input N, N of integers, then provide how many are higher than them
-def test01():
-    user = int(input("Input here: "))
-    userList = input("Provide numbers: ").split()
+# Count the number greater than me
+# [1,2,3] = [2,1,0]
+
+def num_greater_than_me():
+    n = int(input("Enter the number of integers: "))
+    nums = list(map(int, input(f"Enter {n} intergers: ").split()))
     
-    if len(userList) > user or len(userList) < user:
+    if n != len(nums):
         return False
     
-    appendInts = []
+    results = []
     
-    for i in userList:
-        appendInts.append(int(i))
-    
-    result = []
-    
-    for i in appendInts:
+    for i in range(n):
         count = 0
-        for j in appendInts:
-            if j > i:
-                count += 1
-        # If you put this inside the if statement of "j", everytime it meet the req, it will append.
-        result.append(count)
-    
-
-    return result
-print(test01())
+        
+        for j in range(n):
+            if nums[j] > nums[i]:
+                count+=1
+                
+        results.append(count)
+    return results
 
 
-'''
-What will happen if we put it INSIDE?
-10 9 8 > 10 = FALSE all append wont happen
-10 9 8 > 9 = ONLY one so it will happen 1 time
-10 9 8 > 8 = TWICE which are 1 and 2, why 2? becuase the count is stored in the "i" outside, so it will store the prev becuase same index
-'''
+print(num_greater_than_me())
